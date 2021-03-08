@@ -53,6 +53,13 @@
         <module>threadleak</module>
         <module>memoryref</module>
     </modules>
+    
+     <distributionManagement>
+  <repository>
+   <id>my-repo-id</id>
+   <url>http://40.71.93.45:8081/repository/myREPO/</url>
+  </repository>
+ </distributionManagement>
 
     <dependencyManagement>
         <dependencies>
